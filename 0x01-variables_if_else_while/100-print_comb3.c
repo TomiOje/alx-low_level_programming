@@ -21,6 +21,10 @@ int main(void)
 				{
 					putchar(',');
 					putchar(' ');
+				if (!(n == '9' && m == 8))
+				{
+					continue;
+				}
 				}
 			}
 		}
